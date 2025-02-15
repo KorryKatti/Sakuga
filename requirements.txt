@@ -1,0 +1,13 @@
+requests
+python-dotenv
+numpy
+pillow
+pandas
+scikit-learn
+tensorflow
+datasets
+transformers
+sentencepiece
+torch
+tf-keras
+transformers[torch]
