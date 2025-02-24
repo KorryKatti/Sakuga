@@ -4,7 +4,8 @@ processed_data/
 t5-dsl-generator/
 results/
 *.png
-
+*.jpg
+dataset/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

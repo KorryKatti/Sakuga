@@ -1,0 +1,17 @@
+    categories = [
+    "cat", "dog", "car", "tree", "mountain", "bird", "horse", "bicycle", "ocean", "flower",
+    "train", "airplane", "street", "bridge", "city", "sunset", "beach", "forest", "desert", "river",
+    "lion", "tiger", "elephant", "zebra", "deer", "house", "castle", "road", "boat", "fire",
+    "rain", "snow", "cloud", "moon", "star", "sun", "fish", "butterfly", "lamp", "book",
+    "guitar", "piano", "camera", "skyscraper", "bus", "truck", "motorcycle", "soccer", "basketball", "tennis", "chess","anime character", "anime scenery", "manga panel", "cyberpunk", "steampunk",  
+    "sci-fi city", "fantasy castle", "mythical creature", "dystopian future", "retro wave",  
+    "vaporwave", "glitch art", "dark surrealism", "dreamcore", "liminal space",  
+    "digital painting", "low poly art", "pixel art", "mecha", "space nebula",  
+    "horror illustration", "eldritch horror", "occult symbols", "psychedelic art", "abstract expressionism",  
+    "nude art", "life drawing", "tattoo design", "gothic architecture", "street graffiti",  
+    "medieval armor", "japanese ukiyo-e", "futuristic fashion", "traditional ink drawing", "surreal portrait",  
+    "chiaroscuro painting", "cybernetic implants", "AI-generated art", "hyperrealism", "anime girl aesthetic",  
+    "demon girl", "angelic warrior", "robotic humanoid", "dark fantasy", "Lovecraftian horror",  
+    "warrior monk", "mythological gods", "retro anime", "vintage horror poster", "baroque painting"
+
+]

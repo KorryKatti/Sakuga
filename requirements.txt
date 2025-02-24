@@ -11,3 +11,6 @@ sentencepiece
 torch
 tf-keras
 transformers[torch]
+python-opencv
+bs4
+tqdm
