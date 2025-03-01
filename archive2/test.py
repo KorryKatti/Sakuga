@@ -50,7 +50,7 @@ def render(commands, img_size=(512, 512)):
     img.save("output.png")
 
 if __name__ == "__main__":
-    image_path = "input.png"  # Change this to your image path
+    image_path = "input2.jpg"  # Change this to your image path
     commands = process_image(image_path)
     
     # Save commands to a file in list format for direct pasting into renderer
