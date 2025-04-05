@@ -23,7 +23,9 @@ tokenizer.pad_token = tokenizer.eos_token  # gpt2 needs this
 model = GPT2LMHeadModel.from_pretrained(model_name)
 
 # load and tokenize
-data = load_data("C:/Users/korry/Documents/flickr30k_rgb.csv")
+data = load_data("C:\Users\korry\Documents\flickr30k_rgb_128.csv")
+print(data[0])
+
 tokenized_data = data.map(tokenize_function, batched=True)
 
 # data collator to handle padding
