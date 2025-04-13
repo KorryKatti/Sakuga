@@ -1,3 +1,4 @@
+up.py
 # data files
 images/
 processed_data/
@@ -180,3 +181,5 @@ cython_debug/
 corpus.txt
 commands.txt
 flickr30k_rgb.csv
+dataset.csv
+/logs

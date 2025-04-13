@@ -25,7 +25,8 @@ def tokenize_function(examples):
 model_name = "mistralai/Mistral-7B-Instruct-v0.1"  # or use a small distilled model if even this breaks
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 tokenizer.pad_token = tokenizer.eos_token
-model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float32)
+model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float32,low_cpu_mem_usage=True)
+
 
 # load and tokenize
 data = load_data("C:\\Users\\korry\\Documents\\flickr30k_rgb_96.csv")
