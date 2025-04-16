@@ -29,7 +29,7 @@ model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float
 
 
 # load and tokenize
-data = load_data("C:\\Users\\korry\\Documents\\flickr30k_rgb_96.csv")
+data = load_data("dataset.csv")
 tokenized_data = data.map(tokenize_function, batched=True)
 
 # data collator to handle padding
